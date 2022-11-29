@@ -404,6 +404,14 @@
 		line-height: 2rem;
 	}
 
+	.site-content article table {
+		font-size: 1.2rem;
+	}
+
+	.site-content tbody tr td:first-of-type {
+		width: 9rem;
+	}
+
 	.site-content article li {
 		margin-top: 7px;
 	}
@@ -446,13 +454,6 @@
 		font-size: 2rem;
 	}
 
-	.site-content article p, 
-	.site-content article ul li, 
-	.site-content article ol li {
-		font-size: 1.4rem;
-		line-height: 2rem;
-	}
-	
 	.remark {
 		padding: 7px 15px;
 		margin: 20px 0;
