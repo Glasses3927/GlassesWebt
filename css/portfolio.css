@@ -292,6 +292,14 @@
 		margin: 0 20px;
 	}
 
+	.modaal-outer-wrapper .modaal-inner-wrapper {
+		padding: 60px 15px;
+	}
+
+	.modaal-container .modaal-content-container {
+		padding: 30px 20px;
+	}
+
 	.comingsoon {
 		margin-top: 15px;
 	}

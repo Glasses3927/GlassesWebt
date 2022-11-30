@@ -70,7 +70,8 @@
 	background-color: white;
 }
 
-.thanks-content div {
+.thanks-content p {
+	font-family: 'Sawarabi Gothic', 'Noto Sans JP', Meiro, sans-serif, 'Hiragino Kaku Gothic ProN';
 	font-size: 1.8rem;
 	display: flex;
 	white-space: nowrap;
@@ -94,7 +95,7 @@
 	letter-spacing: 0;
 }
 
-.scroll p {
+.scroll>p {
 	color: black; 
 	font-size: 1.5rem;
 	margin-left: 50px;
@@ -133,7 +134,7 @@
 		padding-left: 60px;
 	}
 	
-	.scroll p {
+	.scroll>p {
 		margin-left: 0;
 	}
 	
@@ -155,7 +156,7 @@
 
 
 @media screen and (max-width:500px) {
-	.scroll p {
+	.scroll>p {
 		font-size: 1.3rem;
 	}
 
@@ -190,7 +191,7 @@
 		font-size: 1.5rem;
 	}
 	
-	.thanks-content div {
+	.thanks-content p {
 		font-size: 1.3rem;
 		margin-bottom: 30px;
 	}

@@ -398,8 +398,8 @@
 	}
 
 	.site-content article p, 
-	.site-content article ul, 
-	.site-content article ol {
+	.site-content article ul li, 
+	.site-content article ol li {
 		font-size: 1.4rem;
 		line-height: 2rem;
 	}
