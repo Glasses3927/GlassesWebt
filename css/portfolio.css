@@ -187,7 +187,7 @@
 .modaal-container td{
 	padding: 5px;
 	border-collapse: collapse;
-	border: solid 0.5px;
+	border: 0.5px solid black;
 }
 
 .modaal-container table {
