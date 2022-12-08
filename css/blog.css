@@ -21,6 +21,8 @@
 	font-size: 1.4rem;
 	font-family: 'Open Sans';
 	align-items: flex-end;
+	height: 3.5rem;
+	line-height: 3.5rem;
 }
 
 .post-top .tag {
@@ -126,6 +128,11 @@
 .site-content tbody tr td:first-of-type {
 	width: 13rem;
 }
+
+.YT {
+	display: inline-block;
+}
+
 
 
 
@@ -346,23 +353,17 @@
 
 
 @media screen and (max-width:850px) {
-	
-	.site-content article iframe {
-		width: 70%;
-		position: relative;
+		
+	.YT {
+		width: 100%;
+		aspect-ratio: 16/9;
 	}
 	
-	.site-content::before{
-		content:'';
-		display: block;
-		padding-top: 56.25%;
+	.YT iframe{
+		width: 100%;
+		height: 100%;
 	}
 	
-}
-
-.site-content article iframe {
-	width: 560px;
-	height: 315px; 
 }
 
 @media screen and (max-width:800px) {
