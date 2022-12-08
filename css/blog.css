@@ -109,6 +109,10 @@
 	font-size: 1.6rem;
 }
 
+.site-content article div {
+	margin: 10px 0;
+}
+
 .site-content article strong{
 	font-family: 'Noto Sans JP';
 }
@@ -126,9 +130,6 @@
 
 
 
-.YT-responsive {
-	display: inline-block;
-}
 
 .remark {
 	font-family: 'Noto Sans JP';
@@ -344,26 +345,32 @@
 
 
 
+@media screen and (max-width:850px) {
+	
+	.site-content article iframe {
+		width: 70%;
+		position: relative;
+	}
+	
+	.site-content::before{
+		content:'';
+		display: block;
+		padding-top: 56.25%;
+	}
+	
+}
+
+.site-content article iframe {
+	width: 560px;
+	height: 315px; 
+}
+
 @media screen and (max-width:800px) {
 	
 	.site-content{
 		padding: 150px 70px;
 	}
-
-	.YT-responsive{
-		position:relative;
-		width:100%;
-		padding-top:56.25%;
-	}
-
-	.YT-responsive iframe{
-		position:absolute;
-		top:0;
-		right:0;
-		width:100%;
-		height:100%;
-	}
-
+	
 }
 
 @media screen and (max-width:700px) {
